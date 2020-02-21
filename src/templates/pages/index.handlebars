@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conscious</title>
+    <script src="{{absRefPrefix}}js/main.dist.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{absRefPrefix}}assets/images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '859980807677089');
+      fbq('track', 'PageView');
+      fbq('track', 'ViewContent');
+    </script>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-115666076-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+  </head>
+  <body>
+    <div class="section hero hero-container">
+      <div class="hero-controls">
+        <div class="hero-controls__logo">
+          <img src="{{absRefPrefix}}assets/images/logo.png" />
+          <span>beta</span>
+        </div>
+        <div class="hero-controls__body">
+          <h3>Sign up for Early Access!</h3>
+          <div class="control">
+            <label>Email</label>
+            <input class="form-control email-input" placeholder="Enter your email address"/>
+            <img src='{{absRefPrefix}}assets/images/icon-user.png' />
+          </div>
+          <p class="or">&nbsp;</p>
+          <button class="button btn-signup">
+            <img src="{{absRefPrefix}}assets/images/icon-plus.png" />
+            <span>Sign up for Early Access</span>
+          </button>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-content__worldmap"></div>
+        <div class="hero-content__wrapper">
+        <div class="hero-content__logo">
+          <img src="{{absRefPrefix}}assets/images/logo.png" alt="logo"/>
+          <span>beta</span>
+        </div>
+        <h3 class="hero-content__subtitle">Reduce stress in <span>3 minutes</span> with just your camera</h3>
+          <div class="hero-content__control">
+            <div class="control">
+              <label>Email</label>
+              <input class="form-control email-input" placeholder="Enter your email address"/>
+              <img src='{{absRefPrefix}}assets/images/icon-user.png' />
+            </div>
+            <button class="button btn-signup">
+              <img src="{{absRefPrefix}}assets/images/icon-plus.png" />
+              <span>Sign up for Early Access</span>
+            </button>
+          </div>
+          <div class="hero-content__segment">
+            <img src="{{absRefPrefix}}assets/images/emotion.png" />
+            <div class="content-segment__text">
+              <p class="content-segment__text-upper">Measure Your Health &amp; Wellbeing</p>
+              <p class="content-segment__text-lower">with just your camera</p>
+            </div>
+          </div>
+          <div class="hero-content__segment">
+            <img src="{{absRefPrefix}}assets/images/measure.png" />
+            <div class="content-segment__text">
+              <p class="content-segment__text-upper">Create Better Emotional States</p>
+              <p class="content-segment__text-lower">with real-time biofeedback training</p>
+            </div>
+          </div>
+          <div class="hero-content__segment">
+            <img src="{{absRefPrefix}}assets/images/dollar.png" />
+            <div class="content-segment__text">
+              <p class="content-segment__text-upper">Progress and Earn Tokens</p>
+              <p class="content-segment__text-lower">to claim real-world rewards</p>
+            </div>
+          </div>
+          <div class="hero-content__segment">
+            <img src="{{absRefPrefix}}assets/images/world.png" />
+            <div class="content-segment__text">
+              <p class="content-segment__text-upper">Improve The World</p>
+              <p class="content-segment__text-lower">by giving tokens to life-changing causes</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-content__circle">      
+          <div class="pulse-image">
+            <img src="/assets/images/girl-face.png" />
+          </div>
+          <div class="pulse-area">
+              <div class="pulse pulse-1"></div>
+              <div class="pulse pulse-2"></div>
+              <div class="pulse pulse-3"></div>
+              <div class="pulse pulse-4"></div>
+              <div class="pulse pulse-5"></div>
+          </div>
+        </div><!-- white box -->
+      </div>
+    </div>
+    
+    
+    <div class="section states-container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 px-0 session">
+          <div class="session-view">
+            <div class="session-view__image"></div>
+          </div>
+          <div class="session-pulse">
+            <div class="pulse pulse-1"></div>
+            <div class="pulse pulse-2"></div>
+            <div class="pulse pulse-3"></div>
+            <div class="pulse pulse-4"></div>
+            <div class="pulse pulse-5"></div>
+          </div>
+          <div class="session-shadow"></div>
+          
+        </div>
+        <div class="col-sm-12 col-md-6 description">
+          <p class="top-text">MEASURE WELLBEING WITH YOUR CAMERA</p>
+          <h4 class="middle-text">Improve your health in real-time.</h4>
+          <p class="bottom-text">Realtime biometric data guides you to a state of wellbeing using only your breath.</p>
+          <p class="bottom-text"> All you need is your front-facing camera.</p>
+          <button class="button access-button redirect-signup">
+              <img src="{{absRefPrefix}}assets/images/icon-plus.png"></img>
+              <span class="access-button__text">Get Early Access</span>
+              <span class="access-button__coins">
+                <img src="{{absRefPrefix}}assets/images/coins.png" />
+                +500
+              </span>
+          </button>
+          <div class="session-info row">
+            <div class="session-info__item">
+              <span><i class="breath-taken yellow" aria-hidden="true"></i> Breaths taken</span> 
+              <span class="number-animation-1">132</span>
+            </div>
+            <div class="session-info__item">
+              <span><i class="breath-state blue" aria-hidden="true"></i> Current breath state</span>
+              <span class="text-animation">inhaling</span>
+            </div>
+            <div class="session-info__item">
+              <span><i class="breath-depth green" aria-hidden="true"></i> Breath depth </span>
+              <span class="number-animation-2">87</span>
+            </div>
+            <div class="session-info__item">
+              <span><i class="breath-clock ghost" aria-hidden="true"></i> Breaths per minute </span> 
+              <span class="number-animation-3">5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section camera-container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 description">
+          <p class="top-text">BREATHE YOUR WAY TO FEELING BETTER</p>
+          <h4 class="middle-text">Upgrade your emotional states.</h4>
+          <p class="bottom-text">Free yourself from limitations and unlock higher emotional potential by retraining your nervous system through your breath. </p>          
+          <button class="button try-button redirect-signup">
+            <img src="{{absRefPrefix}}assets/images/icon-plus.png"></img>
+            <span class="try-button__text">Try it today</span>
+            <span class="try-button__coins">
+              <img src="{{absRefPrefix}}assets/images/coins.png" />
+              +500
+            </span>
+          </button>             
+        </div>
+        <div class="col-sm-12 col-md-6 px-0 camera">
+            <div class="camera-view">
+              <div class="camera-view__image"></div>
+            </div>
+            <div class="camera-slideshow">
+              <div class="camera-slideshow__item item-1"><img src="{{absRefPrefix}}assets/images/states-cards.png" /></div>
+              <div class="camera-slideshow__item item-2"><img src="{{absRefPrefix}}assets/images/states-cards.png" /></div>
+              <div class="camera-slideshow__item item-3"><img src="{{absRefPrefix}}assets/images/states-cards.png" /></div>          
+            </div>
+            <div class="camera-shadow"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section reward-container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 px-0 reward">
+            <div class="reward-view">
+              <div class="reward-view__image"></div>
+            </div>
+            <div class="reward-cards">
+              <div class="reward-cards__item item-1"><img src="{{absRefPrefix}}assets/images/chest-open.png" /></div>
+              <div class="reward-cards__item item-2"><img src="{{absRefPrefix}}assets/images/chest-closed.png" /></div>
+              <div class="reward-cards__item item-3"><img src="{{absRefPrefix}}assets/images/chest-open.png" /></div>
+              <div class="reward-cards__item item-4"><img src="{{absRefPrefix}}assets/images/chest-open.png" /></div>
+              <div class="reward-cards__item item-5"><img src="{{absRefPrefix}}assets/images/chest-closed.png" /></div>
+              <div class="reward-cards__item item-6"><img src="{{absRefPrefix}}assets/images/chest-open.png" /></div>
+            </div>
+            <div class="reward-shadow"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 description">
+          <p class="top-text">PROGRESS AND EARN TOKENS</p>
+          <h4 class="middle-text">Contribute to world-changing causes.</h4>
+          <p class="bottom-text">Earn rewards by progressing through levels of self-mastery. Rewards can be given to charities or used for free subscriptions.</p>
+          <div class="extra-text">
+            <span><img src="{{absRefPrefix}}assets/images/icon-breath-taken.png" /> You found ... </span>
+            <span>100 coins!</span>
+          </div>
+          <button class="button access-button redirect-signup">
+              <img src="{{absRefPrefix}}assets/images/icon-plus.png"></img>
+              <span class="access-button__text">Get Early Access</span>
+              <span class="access-button__coins">
+                <img src="{{absRefPrefix}}assets/images/coins.png" />
+                +500
+              </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="section world-container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 description">
+          <p class="top-text">BE THE CHANGE</p>
+          <h4 class="middle-text">Collaborate with others around the world.</h4>
+          <p class="bottom-text">As you feel better, you automatically uplift the people around you. Conscious Multiplayer allows you to breathe and attain higher levels of wellbeing, together.</p>
+          <button class="button access-button redirect-signup">
+              <img src="{{absRefPrefix}}assets/images/icon-plus.png"></img>
+              <span class="access-button__text">Get Early Access</span>
+              <span class="access-button__coins">
+                <img src="{{absRefPrefix}}assets/images/coins.png" />
+                +500
+              </span>
+          </button> 
+        </div>
+        <div class="col-sm-12 col-md-6 px-0 world">
+            <div class="world-view">
+              <img class="world-view__image" src="{{absRefPrefix}}assets/images/world-screen.png">
+            </div>
+            <div class="world-shadow"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section transform-container">
+        <div class="row">
+          <div class="px-0 transform">
+              <div class="transform-view">
+                <p>Our Mission is to reduce stress, improve mental performance, and elevate human consciousness.</p>
+                <p>Join the movement.</p>
+                <button class="button access-button redirect-signup">
+                    <img src="{{absRefPrefix}}assets/images/icon-plus.png"></img>
+                    <span class="access-button__text">Get Early Access</span>
+                    <span class="access-button__coins">
+                      <img src="{{absRefPrefix}}assets/images/coins.png" />
+                      +500
+                    </span>
+                </button> 
+              </div>
+          </div>
+        </div>
+    </div>
+    {{> partials/footer }}
+    {{> partials/anchors }}
+  </body>
+</html>

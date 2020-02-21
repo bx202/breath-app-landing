@@ -1,0 +1,78 @@
+@include font-face('Manrope', '../assets/fonts/manrope/manrope-light', 300, null,otf woff woff2);
+@include font-face('Manrope', '../assets/fonts/manrope/manrope-regular', 400, null,otf woff woff2);
+@include font-face('Manrope', '../assets/fonts/manrope/manrope-bold', 600, null,otf woff woff2);
+
+html, body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: transparent;
+  font-family: $main-font-family !important;
+}
+
+header {
+  // background: linear-gradient(#131370, #0b0815 20%, #131370 80%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  margin: $gutter 0;
+  font-family: $main-font-family;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+input, button, select, optgroup, textarea, p {
+  font-family: $main-font-family;
+}
+
+h1 {
+  font-size: 3.998em;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+small,
+.font_small {
+  font-size: 0.707em;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+.button {
+  padding: 10px 20px;
+  max-width: 100%;
+  min-width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  transition: all .5s;
+  cursor: pointer;
+
+  &.ghost {
+    border: 4px solid $color-ghost;
+    box-shadow: inset 0 2px 15px rgba(9,159,255,0.65), 0 2px 15px rgba(9,159,255,0.65), 0 2px 64px rgba(71,150,255,0.3);  
+  }
+
+  &.purple {
+    border: 4px solid $color-purple;
+    box-shadow: 0 2px 24px rgba(80,37,212,0.37);
+  }
+}

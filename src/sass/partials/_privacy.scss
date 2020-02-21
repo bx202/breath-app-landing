@@ -1,0 +1,37 @@
+.privacy {
+    color: #33274A;
+    header {
+        .back-arrow {
+            display: inline-block;
+            color: #33274A;
+            text-decoration: none;
+            position: relative;
+            left: -50px;
+        }
+    }
+    .template-content {
+        a {
+            color: #5052E3 !important;
+        }
+    }
+    p {
+        color: #504b4b;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        word-break: break-word;
+        letter-spacing: 1px;
+    }
+
+    ul {
+        li {
+            color: #504b4b;
+            word-break: break-word;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+    }
+    .clear {
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,51 @@
+.anchors {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: inline-block;
+    z-index: 100;
+    @media screen and (max-width: $sm){
+        display: none;
+    }
+
+    button {
+        display: block;
+        outline: none;
+        margin: 10px;
+        height: 70px;
+        width: 80px;
+        border: none;
+        background: transparent;
+        /* Arrow & Hover Animation */
+        .more-arrows {
+            width: 75px;
+            height: 65px;
+            &.arrow-up {
+                transform: rotate(180deg);
+            }
+            &:hover {            
+                polygon {
+                    fill: #4acbf4;
+                    transition: all .2s ease-out;
+                    &.arrow-bottom {
+                        transform: translateY(-18px);
+                    }
+                    &.arrow-top {
+                        transform: translateY(18px);
+                    }            
+                }        
+            }            
+        }
+
+        polygon {
+            fill: #4acbf4;
+            transition: all .2s ease-out;            
+            &.arrow-middle {
+                opacity: 0.75;
+            }
+            &.arrow-top {
+                opacity: 0.5
+            }            
+        }
+    }
+}
